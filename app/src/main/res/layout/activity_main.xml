@@ -53,6 +53,7 @@
                 android:textColorHint="#925A5555">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name_field"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name" />
@@ -60,13 +61,13 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btn_start"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:layout_weight="1"
                 android:padding="0dp"
-                android:text="Button"
+                android:text="START"
                 app:cornerRadius="1dp" />
         </LinearLayout>
 
